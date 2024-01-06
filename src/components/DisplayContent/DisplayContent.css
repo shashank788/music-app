@@ -1,0 +1,10 @@
+.display_content{
+    display: flex;
+    width: 100vw;
+}
+@media screen and (max-width: 480px) {
+    .display_content{
+        margin-top: 60px;
+        width: 99%;
+    }
+}

@@ -1,0 +1,26 @@
+.mainpage {
+    width: 100%;
+    /* min-width: 1366px; */
+    height: 100%;
+    background: url("https://ik.imagekit.io/amazon1234/1348517_in_prime_2_pd_3000x1200_Eng._CB663273097_.jpg_WGa3rCkj2.png?updatedAt=1627118744997") no-repeat;
+    background-size: 100vw;
+    background-color: #EAEDED;
+}
+.mainpage_main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 260px;
+}
+@media screen and (max-width: 480px) {
+    .mainpage{
+        margin-top: 60px;
+    }
+    .mainpage_main{
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .mainpage_main{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,54 @@
+
+.electronics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .electronics-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+
+  
+  .electronics-image {
+    max-width: 100%;
+    height: 70%;
+  }
+  
+  .electronics-details {
+    padding: 10px;
+  }
+  
+  .electronics-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .electronics-rating {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .electronics-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .electronics-container{
+        margin-top: 60px;
+    }
+  }
+  

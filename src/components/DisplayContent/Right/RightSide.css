@@ -1,0 +1,35 @@
+.RightSide_main {
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #DDDDDD;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    width: 212px;
+    margin: 30px;
+}
+.product_name {
+    font-size: 16px!important;
+    line-height: 24px!important;
+    font-weight: 400 !important;
+}
+.product_rating {
+    font-size: 14px;
+    color: #007185;
+}
+.product_price {
+    color: #B12704;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+    .product{
+        width: 180px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .product{
+        width: 194px;
+    }
+}

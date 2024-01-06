@@ -1,0 +1,226 @@
+.review_container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.review_big_body{
+    width: 60%;
+}
+.sprite {
+	background: url('https://m.media-amazon.com/images/S/sash/ouR9NRElwmzAIev.png') no-repeat -84px -119px;
+	width: 18px;
+	height: 16px;
+}
+.delivery_address{
+    display: flex;
+    justify-content: space-between;
+}
+.delivery_payment{
+    display: flex;
+    justify-content: space-between;
+}
+.sprite_div{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.review_sprite{
+    border-color: #FFAF38;
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 12px;
+    border-radius: 8px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.review_sprite p{
+    margin-left: 20px;
+    margin-top: -2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sprite_text h4{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+}
+.delivery_products{
+    border: 1px #D5D9D9 solid;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 8px;
+}
+.delivery_product{
+    display: flex;
+    margin-top: 10px;
+}
+.product_image{
+    width: 200px;
+    height: 150px;
+}
+.product_image > img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.product_detail{
+    width: 600px;
+}
+.purchase_heading > span{
+    font-weight: 700;
+    font-size: 18px;
+}
+.delivery_address_list ul{
+    margin-top: -5px;
+}
+.delivery_address_list ul li{
+    list-style: none;
+    color: #333;
+    word-wrap: break-word;
+}
+.delivery_address_change{
+    color: #007185;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delivery_payment_change{
+    color: #007185;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.date_heading{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+}
+.display_date{
+    color: #007600;
+}
+.products_div{
+    padding: 20px;
+    margin-top: -40px;
+}
+.product_detail h4{
+        font-weight: 700;
+        font-size: 16px;
+}
+.product_detail_price{
+    color: #B12704;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.product_detail_qty{
+    border-color: #D5D9D9;
+    border-radius: 8px;
+    color: #0F1111;
+    background: #F0F2F2;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    height: 22px;
+    width: 70px;
+    text-align: center;
+    margin-top: -10px;
+}
+.placeOrder{
+    display: flex;
+    border: 1px #D5D9D9 solid;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 8px;
+    align-items: center;
+}
+.placeOrder_text_rupee{
+    display: flex;
+    align-items: center;
+    color: #B12704;
+    font-size: 18px;
+    font-weight: 700;
+}
+.placeOrder_text_div{
+    color: #565959;
+    font-size: 14px;
+    margin-top: -3px;
+}
+#extra_class{
+    padding: 20px;
+    margin-top: -10px;
+}
+.review_anchor{
+    width: 93%;
+    height: 48px;
+    background-color: #F0F2F2;
+    padding: 9px;
+    font-size: 12px;
+    border-radius: 0 0 8px 8px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.review_anchor > a{
+    color: #007185;
+    padding: 2px;
+}
+.billing_summary{
+    position: sticky;
+    top: 0;
+}
+.payment_success_message{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 35%;
+    left: 35%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.payment_success_message img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.payment_success_message h2{
+    color: #1b801b;
+}
+.payment_success_message p{
+    color: #6dec6d;
+}
+.payment_success_message button{
+    width: 100px;
+    height: 40px;
+    background-color: #6dec6d;
+    color: #1b801b;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.blur_background {
+    filter: blur(2px); 
+    /* pointer-events: none; */
+  }
+
+
+@media screen and (max-width: 480px) {
+    .review_big_body {
+        width: 100%;
+    }
+    .review_sprite{
+        margin-left: 5px;
+    }
+    .delivery_products{
+        margin-left: 5px;
+    }
+    .placeOrder{
+        margin-left: 5px;
+    }
+    .payment_success_message{
+        width: 280px;
+        top: 12%;
+        left: 12%;
+    }
+}
